@@ -5,20 +5,15 @@ var factory = new ConnectionFactory { HostName = "localhost" };
 using var connection = factory.CreateConnection();
 using var channel = connection.CreateModel();
 
-channel.QueueDeclare(queue: "hello1",
-                     durable: false,
-                     exclusive: false,
-                     autoDelete: false,
-                     arguments: null);
 
-const string message = "Hello World!...hello2";
+const string message = "coming from code for fanout";
 var body = Encoding.UTF8.GetBytes(message);
 
-channel.BasicPublish(exchange: string.Empty,
-                     routingKey: "hello2",
+channel.BasicPublish(exchange: "request.exchange",
+                     routingKey: "",
                      basicProperties: null,
                      body: body);
-Console.WriteLine($" [x] Sent {message}");
+Console.WriteLine($" [x] Sent: {message}");
 
 Console.WriteLine(" Press [enter] to exit.");
 Console.ReadLine();

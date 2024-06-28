@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\mq\\Receive\\Receive.csproj": {}
+    "F:\\mq\\Receive\\Receive.csproj": {}
   },
   "projects": {
-    "D:\\mq\\Receive\\Receive.csproj": {
+    "F:\\mq\\Receive\\Receive.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\mq\\Receive\\Receive.csproj",
+        "projectUniqueName": "F:\\mq\\Receive\\Receive.csproj",
         "projectName": "Receive",
-        "projectPath": "D:\\mq\\Receive\\Receive.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "D:\\mq\\Receive\\obj\\",
+        "projectPath": "F:\\mq\\Receive\\Receive.csproj",
+        "packagesPath": "C:\\Users\\SAHUL HAMEED S\\.nuget\\packages\\",
+        "outputPath": "F:\\mq\\Receive\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SAHUL HAMEED S\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -27,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,6 +39,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -66,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
